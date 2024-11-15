@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import './About.css'
 import AboutImg from "../../assets/about1.jpg"
@@ -13,14 +12,14 @@ function About() {
       <span className='section__subtitle'>My introduction</span>
 
       <div className='about__container container grid'>
-         <img src={AboutImg} alrt="about" className='about__img'/>
+         <img src={AboutImg} alt="about" className='about__img'/>
 
 
          <div className='about__data'>
             <Info/>
 
             <p className='about__description'>
-                I'm <b>Full Stack Developer(MERN)</b>, 
+                I'm <b>Full Stack Developer MERN</b>, 
                 I create web pages with UI / UX user 
                 interface, I have years of experience, and 
                 I create bespoke websites to help people go further online.

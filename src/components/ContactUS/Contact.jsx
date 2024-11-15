@@ -21,10 +21,10 @@ const Contact = () => {
       })
 
       .then((result) => {
-        console.log(result.text);
+        // console.log(result.text);
         toast.success('Email sent successfully!');
     }, (error) => {
-        console.error(error.text);
+        // console.error(error.text);
         toast.error('Failed to send email. Please try again later.');
     });
 
