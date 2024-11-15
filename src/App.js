@@ -18,7 +18,7 @@ function App() {
     <div>
  
     <Header/>
-
+    
     <main className='main'>
     <Home/>
     <About/>
