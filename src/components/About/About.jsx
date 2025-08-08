@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
-import AboutImg from "../../assets/about1.jpg"
+// import AboutImg from "../../assets/about.jpeg"
+import AboutVideo from '../../assets/about.mp4';
 import CV from "../../assets/John-Cv.pdf";
 import Info from './info'
 
@@ -12,7 +13,15 @@ function About() {
       <span className='section__subtitle'>My introduction</span>
 
       <div className='about__container container grid'>
-         <img src={AboutImg} alt="about" className='about__img'/>
+         {/* <img src={AboutImg} alt="about" className='about__img'/> */}
+         <video 
+  className="about__img"
+  src={AboutVideo} 
+  autoPlay 
+  loop 
+  muted 
+  playsInline
+></video>
 
 
          <div className='about__data'>
@@ -20,9 +29,11 @@ function About() {
 
             <p className='about__description'>
                 I'm <b>Full Stack Developer MERN</b>, 
-                I create web pages with UI / UX user 
-                interface, I have years of experience, and 
-                I create bespoke websites to help people go further online.
+                 specializing in building modern, high-performance web 
+                 applications with a focus on intuitive UI/UX design.
+                  With years of experience, I craft bespoke, scalable 
+                  websites and applications that empower individuals 
+                  and businesses to succeed online.
             </p>
 
             <a download="" href={CV} className='button button--flex'>Download CV
