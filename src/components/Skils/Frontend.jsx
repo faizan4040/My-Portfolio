@@ -1,4 +1,11 @@
 import React from 'react'
+import Html from "../../assets/html.png";
+import CSS from "../../assets/css.png";
+import JavaScript from "../../assets/java-script.png";
+import Tailwind from "../../assets/tailwind.png";
+import Reactss from "../../assets/react.png";
+import Native from "../../assets/native.png";
+
 
 function Frontend() {
   return (
@@ -8,7 +15,12 @@ function Frontend() {
         <div className='skills__box'>
             <div className='skills__group'>
                 <div className='skills__data'>
-                    <i className='bx bx-badge-check'></i>
+                    <img 
+                    src={Html} 
+                    alt="HTML Logo" 
+                    style={{ width: "20px", height: "20px" }} 
+                    />
+
                 
 
              <div>
@@ -19,7 +31,11 @@ function Frontend() {
 
 
             <div className='skills__data'>
-                    <i className='bx bx-badge-check'></i>
+                    <img 
+                    src={CSS} 
+                    alt="HTML Logo" 
+                    style={{ width: "20px", height: "20px" }} 
+                    />
                 
              <div>
                 <h3 className='skills__name'>CSS</h3>
@@ -29,41 +45,57 @@ function Frontend() {
 
 
             <div className='skills__data'>
-                    <i className='bx bx-badge-check'></i>
+                    <img 
+                    src={JavaScript} 
+                    alt="HTML Logo" 
+                    style={{ width: "20px", height: "20px" }} 
+                    />
                 
              <div>
                 <h3 className='skills__name'>JavaScript</h3>
-                <span className='skills__level'>Intermediate</span>
+                <span className='skills__level'>Advanced</span>
             </div>   
             </div>
             </div>
 
             <div className='skills__group'>
                 <div className='skills__data'>
-                    <i className='bx bx-badge-check'></i>
+                    <img 
+                    src={Tailwind} 
+                    alt="HTML Logo" 
+                    style={{ width: "20px", height: "20px" }} 
+                    />
              <div>
-                <h3 className='skills__name'>Bootstrap</h3>
-                <span className='skills__level'>Intermediate</span>
+                <h3 className='skills__name'>TailwindCss</h3>
+                <span className='skills__level'>Advanced</span>
             </div>   
             </div>
 
 
             <div className='skills__data'>
-                    <i className='bx bx-badge-check'></i>
+                    <img 
+                    src={Reactss} 
+                    alt="HTML Logo" 
+                    style={{ width: "20px", height: "20px" }} 
+                    />
              <div>
                 <h3 className='skills__name'>ReactJs</h3>
-                <span className='skills__level'>Intermediate</span>
+                <span className='skills__level'>Advanced</span>
             </div>   
             </div>
 
 
             <div className='skills__data'>
-                    <i className='bx bx-badge-check'></i>
+                    <img 
+                    src={Native} 
+                    alt="HTML Logo" 
+                    style={{ width: "20px", height: "20px" }} 
+                    />
                 
 
              <div>
-                <h3 className='skills__name'>React Native</h3>
-                <span className='skills__level'>Intermediate</span>
+                <h3 className='skills__name'>ReactNative</h3>
+                <span className='skills__level'>Advanced</span>
             </div>   
             </div>
             </div>
