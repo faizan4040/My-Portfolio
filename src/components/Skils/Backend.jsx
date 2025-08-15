@@ -26,7 +26,7 @@ function Backend() {
 
          <div>
             <h3 className='skills__name'>NodeJS</h3>
-            <span className='skills__level'>Frontend</span>
+            <span className='skills__level'>Advanced</span>
         </div>   
         </div>
 
@@ -41,7 +41,7 @@ function Backend() {
 
          <div>
             <h3 className='skills__name'>Java + DSA</h3>
-            <span className='skills__level'>Frontend</span>
+            <span className='skills__level'>Advanced</span>
         </div>   
         </div>
 
@@ -54,7 +54,7 @@ function Backend() {
                     />
          <div>
             <h3 className='skills__name'>Python</h3>
-            <span className='skills__level'>Frontend</span>
+            <span className='skills__level'>Advanced</span>
         </div>   
         </div>
         </div>
@@ -70,7 +70,7 @@ function Backend() {
 
          <div>
             <h3 className='skills__name'>MongoDB</h3>
-            <span className='skills__level'>Frontend</span>
+            <span className='skills__level'>Advanced</span>
         </div>   
         </div>
 
@@ -83,7 +83,7 @@ function Backend() {
                     />
          <div>
             <h3 className='skills__name'>AI</h3>
-            <span className='skills__level'>Frontend</span>
+            <span className='skills__level'>Advanced</span>
         </div>   
         </div>
 
@@ -97,7 +97,7 @@ function Backend() {
 
          <div>
             <h3 className='skills__name'>Firebase</h3>
-            <span className='skills__level'>Frontend</span>
+            <span className='skills__level'>Advanced</span>
         </div>   
         </div>
         </div>

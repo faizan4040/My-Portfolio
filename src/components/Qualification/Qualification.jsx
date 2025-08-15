@@ -100,11 +100,11 @@ const toggleTab = (index) =>{
                    </div>
 
                     <div>
-                        <h3 className="qualification__title">MERN Stack Developer</h3>
+                        <h3 className="qualification__title">MERN Stack Developer (training)</h3>
                         <span className='qualification__subtitle'>Grras Solutions Pvt. Ltd </span>
                         <div className='qualification__calender'>
                             <i className='uil uil-calendar-alt'></i>
-                            2024 - present 
+                            2024 - complete
                         </div>
                     </div>
                 </div>
@@ -115,11 +115,11 @@ const toggleTab = (index) =>{
                 ? "qualification__content qualification__content-active" : "qualification__content "}>
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">M.Tech</h3>
-                        <span className='qualification__subtitle'>Pending.....</span>
+                        <h3 className="qualification__title">Zectagon Technologies</h3>
+                        <span className='qualification__subtitle'>MERN Stack Developer</span>
                         <div className='qualification__calender'>
                             <i className='uil uil-calender-alt'></i>
-                            2025 coming soon
+                            2024 - present
                         </div>
                     </div>
                    <div>
@@ -139,22 +139,22 @@ const toggleTab = (index) =>{
                    </div>
 
                     <div>
-                        <h3 className="qualification__title">UX & UI Designer</h3>
-                        <span className='qualification__subtitle'>Grras Solutions Pvt. Ltd</span>
+                        <h3 className="qualification__title">Frontend Developer</h3>
+                        <span className='qualification__subtitle'>Zectagon Technologies</span>
                         <div className='qualification__calender'>
                             <i className='uil uil-calendar-alt'></i>
-                            2020 - 2021
+                            2024 - 2025
                         </div>
                     </div>
                 </div>
 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">Web Development</h3>
-                        <span className='qualification__subtitle'>youtube</span>
+                        <h3 className="qualification__title">Backend Developer</h3>
+                        <span className='qualification__subtitle'>Zectagon Technologies</span>
                         <div className='qualification__calender'>
                             <i className='uil uil-calender-alt'></i>
-                            2021 - 2023
+                            2024 - 2025
                         </div>
                     </div>
                    <div>

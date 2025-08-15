@@ -38,7 +38,7 @@ const toggleTab = (index) =>{
                             Product Designer</h3>
 
                         <p className='services__modal-description'>
-                        Service with more than 3 years of experience.
+                        Service with more than 1+ years of experience.
                         Providing quality work to clients and companies.
                         </p>
 
@@ -46,21 +46,21 @@ const toggleTab = (index) =>{
                             <li className='services__modal-services'>
                                 <li className='uil uil-check-circle services__modal-icons'></li>
                                 <p className='services__modal-info'>
-                                    I develop the user interface.
+                                    Understand the client’s goals and target audience.
                                 </p>
                             </li>
 
                             <li className='services__modal-services'>
                                 <li className='uil uil-check-circle services__modal-icons'></li>
                                 <p className='services__modal-info'>
-                                    Web page development.
+                                   Define features and requirements.
                                 </p>
                             </li>
 
                             <li className='services__modal-services'>
                                 <li className='uil uil-check-circle services__modal-icons'></li>
                                 <p className='services__modal-info'>
-                                    I create ux element interactions.
+                                   Create wireframes, user flows, and database schema.
                                 </p>
                             </li>
 
@@ -74,7 +74,7 @@ const toggleTab = (index) =>{
                             <li className='services__modal-services'>
                                 <li className='uil uil-check-circle services__modal-icons'></li>
                                 <p className='services__modal-info'>
-                                    Design and mockups of products for companies.
+                                    Choose the right tech stack (MongoDB, Express, React, Node).
                                 </p>
                             </li>
 
@@ -105,7 +105,7 @@ const toggleTab = (index) =>{
                         <h3 className='services__modal-title'>Ui/Ux Designer</h3>
 
                         <p className='services__modal-description'>
-                        Service with more than 3 years of experience.
+                        Service with more than 1+ years of experience.
                         Providing quality work to clients and companies.
                         </p>
 

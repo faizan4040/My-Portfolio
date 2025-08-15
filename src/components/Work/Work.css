@@ -77,6 +77,44 @@
 }
 
 
+
+.work__icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.work__icon {
+  font-size: 20px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  padding: 8px;
+  transition: background 0.3s ease;
+}
+
+.work__icon:hover {
+  background: #ddd;
+}
+
+.work__icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.work__icon-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
 /* =================================== Responsive =================== */
 
 /* For larger device */
